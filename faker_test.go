@@ -2,9 +2,10 @@ package faker
 
 import (
 	"fmt"
-	. "github.com/manveru/gobdd"
 	"math/rand"
 	"testing"
+
+	. "github.com/manveru/gobdd"
 )
 
 var (
@@ -72,14 +73,14 @@ func init() {
 				Returns, "Tajikistan", "Cameroon", "Cote d'Ivoire")
 		})
 		It("makes random latitude", func() {
-			Expect(fake.Latitude(), ToEqual, -22.854895011606132)
+			Expect(fake.Latitude(), ToEqual, -22.85489501160613)
 			Expect(fake.Latitude(), ToEqual, -78.11991057716678)
-			Expect(fake.Latitude(), ToEqual, 18.736893280555563)
+			Expect(fake.Latitude(), ToEqual, 18.736893280555567)
 		})
 		It("makes random longitude", func() {
-			Expect(fake.Longitude(), ToEqual, -45.709790023212264)
+			Expect(fake.Longitude(), ToEqual, -45.70979002321226)
 			Expect(fake.Longitude(), ToEqual, -156.23982115433355)
-			Expect(fake.Longitude(), ToEqual, 37.473786561111126)
+			Expect(fake.Longitude(), ToEqual, 37.47378656111113)
 		})
 
 		It("makes fake company names", func() {
@@ -249,14 +250,14 @@ func init() {
 				Returns, "Turks- und Caicosinseln", "Turks- und Caicosinseln", "Guinea")
 		})
 		It("makes random latitude", func() {
-			Expect(fake.Latitude(), ToEqual, -22.854895011606132)
+			Expect(fake.Latitude(), ToEqual, -22.85489501160613)
 			Expect(fake.Latitude(), ToEqual, -78.11991057716678)
-			Expect(fake.Latitude(), ToEqual, 18.736893280555563)
+			Expect(fake.Latitude(), ToEqual, 18.736893280555567)
 		})
 		It("makes random longitude", func() {
-			Expect(fake.Longitude(), ToEqual, -45.709790023212264)
+			Expect(fake.Longitude(), ToEqual, -45.70979002321226)
 			Expect(fake.Longitude(), ToEqual, -156.23982115433355)
-			Expect(fake.Longitude(), ToEqual, 37.473786561111126)
+			Expect(fake.Longitude(), ToEqual, 37.47378656111113)
 		})
 
 		It("makes fake company names", func() {
