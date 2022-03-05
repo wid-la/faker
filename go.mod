@@ -1,4 +1,4 @@
-module wid-la/faker
+module github.com/wid-la/faker
 
 go 1.17
 
